@@ -1,5 +1,5 @@
 .hero-carousel{
-    padding-top: 25px;
+    padding: 25px 16px;
     overflow: hidden;
     .owl-stage-outer{
         padding: 6px 0;
@@ -122,6 +122,13 @@
 .hero-carousel__item-actions__link--disabled{
     color: $font-color;
     pointer-events: none;
+}
+
+@media (min-width: $screen-sm-min) {
+    .hero-carousel{
+        padding: 25px 0;
+        overflow: hidden;
+    }
 }
 
 @media (min-width: $screen-xxlg-min) {

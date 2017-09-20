@@ -24,6 +24,7 @@ $transition-speed:            	1500ms;
 }
 .material-video-container__inner{
     border-radius: 5px;
+    contain: content;
     .material-btn{
         &.material-btn--normal-transition{
             transition: opacity $transition-speed*0.5 $transition-style, visibility $transition-speed $transition-style, transform $transition-speed $transition-style;
