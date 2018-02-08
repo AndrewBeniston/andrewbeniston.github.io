@@ -4,8 +4,8 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.5",
     "modernizr": "~2.8.1",
-    "owl.carousel": "^2.1.6",
-    "typed.js": "^1.1.4"
+    "owl.carousel": "^2.2.1",
+    "typed.js": "^2.0.6"
   },
   "overrides": {
     "bootstrap-sass": {
@@ -17,7 +17,7 @@
     }
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
   }
 }
